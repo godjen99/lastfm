@@ -1,0 +1,32 @@
+{
+    "name": "godjen99/lastfm-api",
+    "description": "A package to wrap the LastFM API for easier usage.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Terry Rowland",
+            "email": "godjen99@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "vlucas/phpdotenv": "*",
+        "guzzlehttp/guzzle": "^6.2@dev",
+        "illuminate/support": "~5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "LastFm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
