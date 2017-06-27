@@ -1,7 +1,7 @@
 <?php
 
 use LastFm\Artist\SingleResult;
-use Tests\MockedApiResponses\ArtistSearch;
+use Tests\Stubs\ArtistSearch;
 
 class SingleResultTest extends PHPUnit_Framework_TestCase
 {
